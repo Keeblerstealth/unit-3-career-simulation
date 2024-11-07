@@ -1,11 +1,11 @@
-
-
+import Home from "./components/home.jsx"
 function App() {
  
-console.log(`hello console`)
+console.log(`app says hello console`)
   return (
     <>
-     <h2>Hello</h2>
+     <h2>app says Hello</h2>
+     <Home/>
     </>
   )
 }
